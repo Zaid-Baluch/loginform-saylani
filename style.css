@@ -1,0 +1,129 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+.login {
+  width: 40%;
+  background-color: #002062;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  display: flex;
+  justify-self: center;
+}
+img {
+  margin-top: 20px;
+}
+.heading {
+  color: white;
+  font-size: xx-large;
+}
+.input {
+}
+.email {
+  border: none;
+  background-color: #0f2d6b;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  justify-content: baseline;
+}
+.email input {
+  background-color: #0f2d6b;
+  border: none;
+  padding: 10px;
+  gap: 5px;
+}
+.forget {
+  color: white;
+  position: relative;
+  left: 140px;
+  bottom: 9px;
+  font-size: smaller;
+}
+.signin {
+  background-color: rgb(9, 9, 199);
+  color: white;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+.social fieldset {
+  width: 280px;
+  margin-top: 10px;
+  color: rgb(249, 248, 248);
+  border-color: rgb(197, 194, 194);
+  text-align: center;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.google {
+  align-items: center;
+  text-align: center;
+  background-color: #0f2d6b;
+  border-radius: 5px;
+  border: none;
+  color: #0f2d6b;
+}
+.btn {
+  background-color: #0f2d6b;
+  border: none;
+  width: 280px;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.btn img {
+  margin-bottom: 18px;
+  position: relative;
+  right: 10px;
+}
+.social .btn {
+  margin-bottom: 5px;
+}
+.create {
+  color: white;
+}
+.create a {
+  color: rgb(36, 36, 216);
+}
+.image {
+  width: 60%;
+}
+.image img {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  border-radius: 0 5px 5px 0;
+  object-fit: cover;
+  object-position: center;
+}
